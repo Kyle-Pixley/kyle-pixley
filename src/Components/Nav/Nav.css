@@ -1,0 +1,35 @@
+#navbar {
+    width: 100%;
+    border: 1px solid black;
+    background-color: #E0E0E0;
+    box-shadow: inset 1px 2px 0px #FFFFFF;
+    position: fixed;
+    bottom: 0;
+}
+#start-button {
+    width: 4.5em;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+#time-parent {
+    width: 3.5em;
+    position: absolute;
+    height: 70%;
+    bottom: 5.5px;
+    right: 5px;
+    padding: 0 0 0 2em;
+    margin: 0;
+    border-right: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    box-shadow: inset 2px 2px 0px #868A8E;
+}
+
+#current-time {
+    position: absolute;
+    bottom: -10px
+}
+#start-img {
+    height: 1px;
+    width: auto;
+}
