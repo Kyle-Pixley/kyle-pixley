@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4e2b3896.css",
+    "main.js": "/static/js/main.01749656.js",
+    "static/media/about-me.png": "/static/media/about-me.bc60f0c598e2834333b8.png",
+    "static/media/LinkedinLogo.png": "/static/media/LinkedinLogo.8b89ce01929a419c5625.png",
+    "static/media/game-icon.png": "/static/media/game-icon.6b10829d96c6b2415ebd.png",
+    "static/media/ContactInfoLogo.png": "/static/media/ContactInfoLogo.8ac7c65a004601d74683.png",
+    "static/media/resume-download.png": "/static/media/resume-download.1386d5a0388d6514884f.png",
+    "index.html": "/index.html",
+    "main.4e2b3896.css.map": "/static/css/main.4e2b3896.css.map",
+    "main.01749656.js.map": "/static/js/main.01749656.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e2b3896.css",
+    "static/js/main.01749656.js"
+  ]
+}
