@@ -30,10 +30,14 @@
 }
 
 #top-bar {
+    position: sticky;
+    top: 0;
     background-color: #000080;
     width: 99%;
     margin-top: 1px;
     height: fit-content;
+    display: flex;
+    justify-content: space-between;
 }
 #about-me-window-text {
     color: #c0c0c0;
@@ -43,4 +47,23 @@
 #window-body {
     height: 100%;
     width: 100%;
+}
+#window-text {
+    text-indent: 10%;
+    padding: .4em;
+}
+#text-2,
+#text-3 {
+    text-indent: 10%;
+    padding: 0 2%;
+    margin-bottom: 0;
+}
+#download-resume {
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+#download-image {
+    height: 35px;
+    margin: 0 0 0 8px;
 }

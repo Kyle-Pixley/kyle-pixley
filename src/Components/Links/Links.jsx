@@ -4,7 +4,7 @@ import GithubLogo from '../images/GithubLogo.png'
 import LinkedinLogo from '../images/LinkedinLogo.png'
 
 const githubLink = () => {
-    window.open('https://github.com/Kyle-Pixley', '_blank');
+    window.open('https://github.com/Kyle-Pixley?tab=repositories', '_blank');
 }
 const linkedinLink = () => {
     window.open('https://www.linkedin.com/in/kyle-pixley-257686279/', '_blank')

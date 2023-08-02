@@ -1,11 +1,12 @@
 #start-menu {
     position: absolute;
     bottom: 22px;
-    left: 0px;
+    left: 1px;
     display: flex;
-    border: 1px solid black;
+    border-left: 1px solid black;
     padding: 0;
     width: 15%;
+    height: 900%;
 }
 #start-name {
     width: 15%;
@@ -13,7 +14,8 @@
     display: flex;
     justify-content: center;
     padding: 4px 3px;
-    
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
 }
 
 #start-name-text {
@@ -30,6 +32,8 @@
     display: flex;
     flex-direction: column;
     width: 85%;
+    border: 1px solid black;
+
 }
 .start-li {
     display: flex;
@@ -43,8 +47,11 @@
     cursor: default;
 }
 
-#about-me {
-
+#about-me,
+#resume,
+#hobbies,
+#contact-info {
+    height: 15%;
 }
 
 #about-me-image {
@@ -52,4 +59,27 @@
     height: 70%;
     text-align: center;
     padding-right: .5em;
+}
+#resume-image {
+    height: 80%;
+    padding-right: 5px;
+    margin: 0;
+}
+#hobbies-image {
+    height: 80%;
+    padding-right: 5px;
+}
+#contact-info-image {
+    height: 80%;
+}
+
+@media (max-width: 800px) {
+    #start-menu {
+        width: 60vw;
+        height: 40vh;
+        bottom: 60px;
+    }
+    #start-name-text {
+        font-size: 10vw;
+    }
 }

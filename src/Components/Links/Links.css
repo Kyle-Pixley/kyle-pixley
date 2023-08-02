@@ -11,6 +11,9 @@
 .link-icon-parents:hover {
     background-color: rgba( 0, 0, 0, 0.2);
 }
+.link-icon-parents:active {
+    background-color: rgba( 0, 0, 0, 0.5);
+}
 
 #github-parent {
     display: flex;
